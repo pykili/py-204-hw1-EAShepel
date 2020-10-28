@@ -1,8 +1,8 @@
 for n in range(101):
-    sum = 0
+    summ = 0
     for i in range(1, 2*n, 2):
-        sum = sum + i
-    if sum == n*n:
+        summ = summ + i
+    if summ == n*n:
         print(n, '-', True)
     else:
         print(n, '-', False)
