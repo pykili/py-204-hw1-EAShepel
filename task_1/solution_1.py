@@ -1,7 +1,7 @@
 a = input()
 m = int(a[0])
 for i in a:
-    i = int(i)
-    if i > m:
-        m = i
+    b = int(i)
+    if b > m:
+        m = b
 print (m)
