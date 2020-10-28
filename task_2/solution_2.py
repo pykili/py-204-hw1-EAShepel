@@ -1,5 +1,4 @@
 user_input = input()
-most_frequent_character = user_input[0]
 c = 0
 for i in user_input:
     count = 0
