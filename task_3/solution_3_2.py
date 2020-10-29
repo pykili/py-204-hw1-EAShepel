@@ -1,6 +1,7 @@
-# your code here
-for smth in 'a'*10:
-    # your code here
+alphabet = str()
+for i in range(10):
     user_input = input()
-# your code here
+    for i in user_input:
+        if not i in alphabet:
+            alphabet = alphabet + i
 print(alphabet)
