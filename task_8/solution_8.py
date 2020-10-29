@@ -7,7 +7,7 @@ for i in range(num):
     line = input()
     if line == '0':
         break
-    count = count-1
-    summ = summ + count
+    else:
+        summ = summ + int(line)
 
-print(summ/(count))
+print(summ/(count-1))
