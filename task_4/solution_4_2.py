@@ -17,5 +17,6 @@ for i in range(10):
         k = k + 1
     form = user_input[s1+1:s2]
     lemma = user_input[s2+1:s3]
-    if form != lemma and form not in lemma and form[0]!= lemma[0]:
-        print(form,lemma)
+    if form != lemma:
+        if form[0:len(lemma)] != lemma:
+            print(form,lemma)
